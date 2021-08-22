@@ -23,12 +23,12 @@
 body{
     background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
     font-family: 'Kumbh Sans', sans-serif;
-    min-height: 100vh;
+    height: 100%;
 }
 .container{
     max-width: 327px;
     margin: auto;
-    margin-top: 148px;
+    padding-top: 148px;
 }
 .acc-header-container{
     position: relative;
@@ -94,6 +94,7 @@ body{
 @media screen and (min-width: 1440px) {
     body{
         background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 75%);
+        height: 100vh;
     }
     .acc-mobile-img{
         display: none;
@@ -103,7 +104,7 @@ body{
     }
     .container{
         max-width: 920px;
-        margin-top: 129px;
+        padding-top: 129px;
     }
     .acc-bg{
         max-width: 920px;
