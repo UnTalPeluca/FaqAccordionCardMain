@@ -1,0 +1,136 @@
+:root{
+    /* Text primary*/
+    --text-blue: hsl(238, 29%, 16%);
+    --text-red: hsl(14, 88%, 65%);
+    /* Text neutral*/
+    --text-very-dark-blue: hsl(237, 12%, 33%);
+    --text-dark-blue: hsl(240, 6%, 50%);    
+
+    --border: #E8E8EA;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 50px;
+}
+.attribution a {
+    color: white; 
+}
+body{
+    background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+}
+.container{
+    max-width: 327px;
+    margin: auto;
+    margin-top: 148px;
+}
+.acc-header-container{
+    position: relative;
+    bottom: 110px;
+    right: 15px;
+    height: 0px;
+    text-align: center;
+}
+.acc-mobile-img{
+    min-height: 180px;
+    max-width: 275px;
+}
+.acc-desktop-img{
+    display: none;
+}
+.acc-img-shadow{
+    position: relative;
+    bottom: 90px;
+    left: 15px;
+}
+.acc-bg{
+    max-width: 327px;
+    background-color: white;
+    border-radius: 20px;
+    height: 535px;
+    box-shadow: 0px 30px 30px 0px rgba(0,0,0,0.25);
+}
+.acc-content{
+    max-width: 279px;
+    padding-top: 120px;
+    margin: auto;
+}
+.acc-title{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.acc{
+    border-bottom: 1px solid var(--border);
+}
+.acc-button{
+    font-size: 13px;
+    height: 52px;
+    color:var(--text-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acc-button img{
+    max-height: 8px;
+    max-width: 16px;
+}
+.acc-description{
+    display: none;
+    font-size: 12px;
+    color: var(--text-dark-blue);
+    line-height: 18px;
+    padding-bottom: 17px;
+}
+.rotated{
+    transform: rotate(180deg);
+}
+@media screen and (min-width: 1440px) {
+    body{
+        background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 75%);
+    }
+    .acc-mobile-img{
+        display: none;
+    }
+    .acc-img-shadow{
+        display:none;
+    }
+    .container{
+        max-width: 920px;
+        margin-top: 129px;
+    }
+    .acc-bg{
+        max-width: 920px;
+        background-image: url(./images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-x: -84px, -576px;
+        background-position-y: center, -250px;
+    }
+    .acc-desktop-img{
+        display:block;
+        position: relative;
+    }
+    .acc-header-container{
+        left:-95px;
+        bottom: -225px;
+    }
+    .acc-content{
+        margin-left: 50%;
+        min-width: 350px;
+        padding-top: 65px;
+    }
+    .acc-button{
+        font-size: 14px
+    }
+    .acc-title{
+        text-align: start;
+        padding-bottom: 27px;
+    }
+
+}
