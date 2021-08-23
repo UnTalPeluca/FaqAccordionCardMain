@@ -110,7 +110,7 @@ body{
         background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
         background-position-x: -84px, -576px;
-        background-position-y: center, -250px;
+        background-position-y: 75px, -295px;
     }
     .acc-desktop-img{
         display:block;
@@ -130,7 +130,9 @@ body{
     }
     .acc-title{
         text-align: start;
-        padding-bottom: 27px;
+        padding-bottom: 20px;
     }
-
+    .acc-bg{
+        max-height: 509px;
+    }
 }
