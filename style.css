@@ -107,7 +107,7 @@ body{
     }
     .acc-bg{
         max-width: 920px;
-        background-image: url(./images/illustration-woman-online-desktop.svg), url(/images/bg-pattern-desktop.svg);
+        background-image: url(./images/illustration-woman-online-desktop.svg), url(./images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
         background-position-x: -84px, -576px;
         background-position-y: center, -250px;
